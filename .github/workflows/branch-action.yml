@@ -3,6 +3,7 @@ on:
   push:
     branches: 
         - '*/*'
+        - '*'
 jobs:
   build:
     name: Build simple project
