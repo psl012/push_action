@@ -5,6 +5,7 @@ on:
     branches: 
         - 'develop'
         - 'master' 
+        - 'feature'
 jobs:
   build:
     name: Build simple project
