@@ -30,4 +30,9 @@ describe("Testing GitCommand.status()", function(){
         let x = 5 + 5;
         expect(x).to.equal(10);
     });
+
+    it("Normal Subtraction test", function(){
+        let x = 10 - 2;
+        expect(x).to.equal(4);
+    });
 })
