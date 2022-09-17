@@ -1,8 +1,11 @@
 name: Github Actions Example
 on:
   push:
+  pull_request:
     branches: 
-        - '*/*' 
+        - 'develop'
+        - 'master' 
+        - 'feature'
 jobs:
   build:
     name: Build simple project
