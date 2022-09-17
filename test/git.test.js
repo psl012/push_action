@@ -33,6 +33,6 @@ describe("Testing GitCommand.status()", function(){
 
     it("Normal Subtraction test", function(){
         let x = 10 - 2;
-        expect(x).to.equal(8);
+        expect(x).to.equal(4);
     });
 })
