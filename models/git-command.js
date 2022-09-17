@@ -12,7 +12,7 @@ class GitCommand {
     //Command: git status
     status(){        
         /*
-            Create logic here and run unit testing.
+            Create logic here and run unit testing. Yeah
         */
     }
 
